@@ -1,0 +1,94 @@
+{
+  "points": [
+    {
+      "coordinates": [
+        -79.3871,
+        43.6426
+      ],
+      "type": "ttc",
+      "name": "Union Station",
+      "description": "Major transportation hub - Line 1"
+    },
+    {
+      "coordinates": [
+        -79.40437917184886,
+        43.66715211417015
+      ],
+      "type": "ttc",
+      "name": "Spadina Station",
+      "description": "TTC Line 1 & 2 interchange"
+    },
+    {
+      "coordinates": [
+        -79.39981148056366,
+        43.668234817789
+      ],
+      "type": "ttc",
+      "name": "St. George Station",
+      "description": "TTC Line 1 & 2 interchange"
+    },
+    {
+      "coordinates": [
+        -79.38639318955195,
+        43.67070207187249
+      ],
+      "type": "ttc",
+      "name": "Bloor-Yonge Station",
+      "description": "TTC Line 1 & 2 interchange"
+    },
+    {
+      "coordinates": [
+        -79.41606888117681,
+        43.78165669850281
+      ],
+      "type": "ttc",
+      "name": "Finch Station",
+      "description": "TTC Line 1 - North terminus"
+    },
+    {
+      "coordinates": [
+        -79.40584440173576,
+        43.74486707871148
+      ],
+      "type": "ttc",
+      "name": "York Mills Station",
+      "description": "TTC Line 1"
+    },
+    {
+      "coordinates": [
+        -79.41184983491023,
+        43.76188521207961
+      ],
+      "type": "ttc",
+      "name": "Sheppard-Yonge Station",
+      "description": "TTC Line 1 & 4 interchange"
+    },
+    {
+      "coordinates": [
+        -79.39888501501429,
+        43.70530693062007
+      ],
+      "type": "ttc",
+      "name": "Don Mills Station",
+      "description": "TTC Line 4"
+    },
+    {
+      "coordinates": [
+        -79.46,
+        43.65
+      ],
+      "type": "ttc",
+      "name": "Dundas West Station",
+      "description": "TTC Line 2"
+    },
+    {
+      "coordinates": [
+        -79.35,
+        43.68
+      ],
+      "type": "ttc",
+      "name": "Broadview Station",
+      "description": "TTC Line 2"
+    }
+  ]
+}

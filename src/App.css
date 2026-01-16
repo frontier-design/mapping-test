@@ -1,0 +1,228 @@
+.app-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  font-family: 'ABC Diatype', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.sidebar {
+  width: 35%;
+  height: 100%;
+  padding: 30px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  box-sizing: border-box;
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-header {
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sidebar-title {
+  font-size: 80px;
+  font-family: 'ABC Diatype Heavy', 'ABC Diatype', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: black;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  word-spacing: 0.1em;
+}
+
+.sidebar-subtitle {
+  font-size: 20px;
+  line-height: 1.35;
+  color: #000000;
+  max-width: 90%;
+}
+
+.explore-button {
+  display: inline-block;
+  /* padding: 12px; */
+  background-color: transparent;
+  color: #000000;
+  text-decoration: underline;
+  font-size: 20px;
+  font-family: 'ABC Diatype Heavy', 'ABC Diatype', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.map-wrapper {
+  width: 65%;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.layer-controls {
+  margin-top: auto;
+  padding-top: 32px;
+}
+
+/* Hide the triangle tip from MapLibre popups */
+.maplibregl-popup-tip {
+  display: none !important;
+}
+
+.maplibregl-popup-content {
+  border-radius: 0;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  border: none;
+}
+
+.popup-container {
+  padding: 0;
+  max-width: 280px;
+  overflow: hidden;
+  font-family: 'ABC Diatype', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.popup-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.popup-content-inner {
+  padding: 12px;
+}
+
+.popup-title {
+  font-size: 32px;
+  font-family: 'ABC Diatype Ultra', 'ABC Diatype', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: inherit;
+  margin-bottom: 12px;
+  line-height: 1.1;
+  text-transform: none;
+}
+
+.popup-description {
+  font-size: 16px;
+  color: inherit;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
+.legend-title {
+  font-size: 14px;
+  color: #718096;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 25px;
+  cursor: pointer;
+  padding: 10px 10px;
+  margin-left: -8px;
+  margin-right: -8px;
+  border: .5px solid black;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  user-select: none;
+  width: 85%;
+}
+
+.legend-item span {
+  font-family: 'ABC Diatype Heavy', 'ABC Diatype', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.legend-item:hover {
+  opacity: 0.8;
+  transform: translateX(4px);
+}
+
+.legend-item.inactive {
+  opacity: 0.5;
+}
+
+.legend-item.inactive:hover {
+  opacity: 0.7;
+}
+
+.legend-item:last-child {
+  margin-bottom: 0;
+}
+
+.legend-color {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-left: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+  order: 2;
+}
+
+.legend-line {
+  width: 16px;
+  height: 5px;
+  border-radius: 2px;
+  margin-left: auto;
+  flex-shrink: 0;
+  order: 2;
+}
+
+/* Hub Markers - Circular image with label below */
+.hub-marker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hub-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #24613D;
+  margin-bottom: 4px;
+  transition: transform 0.2s ease;
+  display: block;
+}
+
+.hub-image:hover {
+  transform: scale(1.1);
+}
+
+.hub-label {
+  font-family: 'ABC Diatype', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #24613D;
+  background-color: transparent;
+  padding: 2px 4px;
+  text-align: center;
+  line-height: 1.2;
+  max-width: 150px;
+  word-wrap: break-word;
+}
+
+/* Decorative Icons */
+.decorative-icon {
+  will-change: transform;
+}
+
+.decorative-icon svg {
+  display: block;
+}
+
+.legend-icon {
+  margin-right: 10px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+}

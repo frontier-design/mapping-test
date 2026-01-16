@@ -1,0 +1,102 @@
+---
+alwaysApply: true
+---
+
+# Mapping Project - Tech Stack & Resources
+
+## Current Tech Stack
+
+### Core Technologies
+- **React**: 19.2.0 - UI library
+- **MapLibre GL JS**: 5.13.0 - Open-source map rendering library (fork of Mapbox GL JS)
+- **Vite**: 7.2.4 - Build tool and dev server
+- **ESLint**: 9.39.1 - Code linting
+
+### Project Structure
+- React functional components with hooks
+- MapLibre GL JS for map rendering
+- CartoDB Positron basemap style (light, street-focused)
+- Toronto-focused map with restricted bounds
+
+## MapLibre GL JS Documentation & Resources
+
+### Official Documentation
+- **Main Documentation**: https://maplibre.org/maplibre-gl-js-docs/api/
+- **Examples**: https://maplibre.org/maplibre-gl-js-docs/example/
+- **Style Specification**: https://maplibre.org/maplibre-style-spec/
+- **GitHub Repository**: https://github.com/maplibre/maplibre-gl-js
+
+### Key API References
+- **Map Class**: https://maplibre.org/maplibre-gl-js-docs/api/map/
+- **Controls**: https://maplibre.org/maplibre-gl-js-docs/api/markers-and-controls/
+- **Sources**: https://maplibre.org/maplibre-gl-js-docs/api/sources/
+- **Layers**: https://maplibre.org/maplibre-gl-js-docs/api/layers/
+- **Events**: https://maplibre.org/maplibre-gl-js-docs/api/events/
+
+### Common Patterns
+- Map initialization with custom styles
+- Adding controls (NavigationControl, etc.)
+- Event handling (load, error, click, etc.)
+- Style specification for raster/vector tiles
+- Bounds restriction for geographic areas
+
+## React Resources
+- **React Documentation**: https://react.dev/
+- **React Hooks**: https://react.dev/reference/react
+- **useEffect**: https://react.dev/reference/react/useEffect
+- **useRef**: https://react.dev/reference/react/useRef
+- **useState**: https://react.dev/reference/react/useState
+
+## Vite Resources
+- **Vite Documentation**: https://vite.dev/
+- **Vite React Plugin**: https://github.com/vitejs/vite-plugin-react
+
+## Map Style Resources
+- **CartoDB Basemaps**: https://carto.com/basemaps/
+- **MapLibre Style Spec**: https://maplibre.org/maplibre-style-spec/
+- **OpenStreetMap**: https://www.openstreetmap.org/
+
+## Development Guidelines
+- Use functional React components with hooks
+- Clean up map instances in useEffect cleanup functions
+- Handle React StrictMode double initialization
+- Use refs to store map instances (avoid re-renders)
+- Follow MapLibre GL JS best practices for map lifecycle management
+
+## Component Division & Refactoring Rules
+
+### When to Divide Components
+- **Component size threshold**: If a component exceeds ~200 lines, consider dividing it
+- **Single Responsibility**: Each component should have one clear purpose
+- **Reusability**: Extract logic that can be reused across multiple components
+- **Complexity**: If a component handles multiple concerns, split them
+
+### Refactoring Patterns for MapContainer
+If `MapContainer.jsx` grows beyond manageable size, extract:
+
+1. **Map Styles** → `src/utils/mapStyles.js` or `src/config/mapStyles.js`
+   - Extract map style configurations (raster/vector tile styles)
+   - Keep style definitions separate from component logic
+
+2. **Map Configuration** → `src/config/mapConfig.js`
+   - Extract constants: bounds, center, zoom levels
+   - Centralize map-related configuration
+
+3. **Map Initialization Hook** → `src/hooks/useMapInstance.js`
+   - Extract map initialization logic (>50 lines)
+   - Handle map instance creation and basic setup
+
+4. **Map Events Hook** → `src/hooks/useMapEvents.js`
+   - Extract event handlers (load, error, click, etc.)
+   - Centralize event handling logic
+
+5. **Map Controls Component** → `src/components/MapControls.jsx`
+   - Extract control rendering logic
+   - Make controls reusable and configurable
+
+### General Refactoring Guidelines
+- **Extract custom hooks** for complex state management or side effects
+- **Create utility files** for pure functions and configurations
+- **Separate concerns**: Keep UI, logic, and configuration separate
+- **Maintain readability**: Code should be self-documenting with clear section headers
+- **Add TODO comments** in components to guide future refactoring when needed

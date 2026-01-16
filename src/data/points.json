@@ -1,0 +1,256 @@
+{
+  "points": [
+    {
+      "coordinates": [-79.3959, 43.6358],
+      "type": "hub",
+      "name": "The Bentway Conservancy",
+      "description": "Public space beneath the Gardiner Expressway"
+    },
+    {
+      "coordinates": [-79.3775, 43.6405],
+      "type": "hub",
+      "name": "Waterfront Toronto",
+      "description": "Revitalizing Toronto's waterfront"
+    },
+    {
+      "coordinates": [-79.3648, 43.6847],
+      "type": "hub",
+      "name": "Evergreen Brick Works",
+      "description": "Environmental community center and market"
+    },
+    {
+      "coordinates": [-79.3614, 43.7335],
+      "type": "hub",
+      "name": "Toronto Botanical Garden",
+      "description": "17 themed gardens and nature education"
+    },
+    {
+      "coordinates": [-79.5178, 43.7651],
+      "type": "hub",
+      "name": "Black Creek Community Farm",
+      "description": "Urban farm and community food hub"
+    },
+    {
+      "coordinates": [-79.5042, 43.7168],
+      "type": "hub",
+      "name": "Learning Enrichment Foundation",
+      "description": "Community development and workforce training"
+    },
+    {
+      "coordinates": [-79.3806, 43.6475],
+      "type": "landmark",
+      "name": "Royal Ontario Museum",
+      "description": "Historic landmark and museum"
+    },
+    {
+      "coordinates": [-79.3956, 43.6677],
+      "type": "landmark",
+      "name": "Philosopher's Walk",
+      "description": "Scenic footpath on U of T campus"
+    },
+    {
+      "coordinates": [-79.36, 43.65],
+      "type": "landmark",
+      "name": "Distillery District",
+      "description": "Pedestrian-only neighborhood with Victorian architecture"
+    },
+    {
+      "coordinates": [-79.372, 43.648],
+      "type": "landmark",
+      "name": "St. Lawrence Market",
+      "description": "Historic market operating since 1803"
+    },
+    {
+      "coordinates": [-79.3715, 43.6485],
+      "type": "landmark",
+      "name": "Flatiron Building",
+      "description": "Distinctive triangular-shaped landmark"
+    },
+    {
+      "coordinates": [-79.478, 43.628],
+      "type": "landmark",
+      "name": "Sunnyside Beach",
+      "description": "Waterfront beach and boardwalk"
+    },
+    {
+      "coordinates": [-79.36, 43.635],
+      "type": "landmark",
+      "name": "Cherry Beach",
+      "description": "Popular lakeside beach area"
+    },
+    {
+      "coordinates": [-79.344, 43.645],
+      "type": "landmark",
+      "name": "The Port Lands",
+      "description": "Industrial transformation area"
+    },
+    {
+      "coordinates": [-79.35, 43.64],
+      "type": "landmark",
+      "name": "Tommy Thompson Park",
+      "description": "Wildlife sanctuary and park"
+    },
+    {
+      "coordinates": [-79.34, 43.665],
+      "type": "landmark",
+      "name": "Ashbridges Bay Park",
+      "description": "Large waterfront park"
+    },
+    {
+      "coordinates": [-79.32, 43.7],
+      "type": "landmark",
+      "name": "Taylor Creek Park",
+      "description": "Park along the Don River"
+    },
+    {
+      "coordinates": [-79.33, 43.72],
+      "type": "landmark",
+      "name": "Edwards Gardens",
+      "description": "Botanical gardens and park"
+    },
+    {
+      "coordinates": [-79.525, 43.755],
+      "type": "landmark",
+      "name": "Humber Arboretum",
+      "description": "Nature area in the west"
+    },
+    {
+      "coordinates": [-79.51, 43.7],
+      "type": "landmark",
+      "name": "High Park",
+      "description": "Large park with trails and zoo"
+    },
+    {
+      "coordinates": [-79.5, 43.69],
+      "type": "landmark",
+      "name": "Humber Bay Arch Bridge",
+      "description": "Bridge at mouth of Humber River"
+    },
+    {
+      "coordinates": [-79.495, 43.685],
+      "type": "landmark",
+      "name": "Sheldon Lookout",
+      "description": "Panoramic views of skyline and Humber River"
+    },
+    {
+      "coordinates": [-79.49, 43.675],
+      "type": "landmark",
+      "name": "Humber Bay Park",
+      "description": "Waterfront park with trails"
+    },
+    {
+      "coordinates": [-79.455, 43.775],
+      "type": "landmark",
+      "name": "G. Ross Lord Park",
+      "description": "Park with reservoir and trails"
+    },
+    {
+      "coordinates": [-79.44, 43.79],
+      "type": "landmark",
+      "name": "Earl Bales Park",
+      "description": "Large park with ski hill"
+    },
+    {
+      "coordinates": [-79.38, 43.695],
+      "type": "landmark",
+      "name": "Mount Pleasant Cemetery",
+      "description": "Historic cemetery with trails"
+    },
+    {
+      "coordinates": [-79.39, 43.7],
+      "type": "landmark",
+      "name": "Loring-Wyle Parkette",
+      "description": "Park dedicated to sculptors"
+    },
+    {
+      "coordinates": [-79.38, 43.64],
+      "type": "landmark",
+      "name": "Sugar Beach",
+      "description": "Urban beach park with pink umbrellas"
+    },
+    {
+      "coordinates": [-79.365, 43.67],
+      "type": "landmark",
+      "name": "Riverdale Park",
+      "description": "Large park with hilltop views of downtown"
+    },
+    {
+      "coordinates": [-79.355, 43.695],
+      "type": "landmark",
+      "name": "Don Valley Park",
+      "description": "Extensive park system along Don River"
+    },
+    {
+      "coordinates": [-79.47, 43.645],
+      "type": "landmark",
+      "name": "Trinity Bellwoods Park",
+      "description": "Popular park in the west end"
+    },
+    {
+      "coordinates": [-79.42, 43.66],
+      "type": "landmark",
+      "name": "CN Tower",
+      "description": "Iconic Toronto landmark and observation tower"
+    },
+    {
+      "coordinates": [-79.377, 43.651],
+      "type": "landmark",
+      "name": "Ripley's Aquarium",
+      "description": "Major aquarium attraction"
+    },
+    {
+      "coordinates": [-79.385, 43.655],
+      "type": "landmark",
+      "name": "Rogers Centre",
+      "description": "Multi-purpose stadium"
+    },
+    {
+      "coordinates": [-79.39, 43.66],
+      "type": "landmark",
+      "name": "Art Gallery of Ontario",
+      "description": "Major art museum"
+    },
+    {
+      "coordinates": [-79.395, 43.665],
+      "type": "landmark",
+      "name": "University of Toronto",
+      "description": "Historic university campus"
+    },
+    {
+      "coordinates": [-79.375, 43.652],
+      "type": "landmark",
+      "name": "Harbourfront Centre",
+      "description": "Waterfront cultural and recreational complex"
+    },
+    {
+      "coordinates": [-79.36, 43.66],
+      "type": "landmark",
+      "name": "Corktown Common",
+      "description": "Urban park with wetlands"
+    },
+    {
+      "coordinates": [-79.48, 43.66],
+      "type": "landmark",
+      "name": "Fort York",
+      "description": "Historic military fort"
+    },
+    {
+      "coordinates": [-79.5, 43.68],
+      "type": "landmark",
+      "name": "Ontario Place",
+      "description": "Waterfront park and entertainment complex"
+    },
+    {
+      "coordinates": [-79.52, 43.72],
+      "type": "landmark",
+      "name": "Lambton House",
+      "description": "Historic building on Humber River"
+    },
+    {
+      "coordinates": [-79.37, 43.68],
+      "type": "landmark",
+      "name": "Don Valley Viaduct",
+      "description": "Historic bridge over Don Valley"
+    }
+  ]
+}

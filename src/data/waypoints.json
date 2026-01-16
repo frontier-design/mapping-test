@@ -1,0 +1,20 @@
+{
+  "waypoints": [
+    [-79.478, 43.628],
+    [-79.380, 43.640],
+    [-79.344, 43.645],
+    [-79.345, 43.720],
+    [-79.365, 43.795],
+    [-79.455, 43.775],
+    [-79.525, 43.755],
+    [-79.510, 43.700],
+    [-79.478, 43.628]
+  ],
+  "description": "Detailed waypoints for the Toronto Loop Trail (approx. 72-81km).",
+  "segments": [
+    "Humber River Trail (West)",
+    "Waterfront Trail (South)",
+    "Don River Trail (East)",
+    "Finch Corridor Trail (North)"
+  ]
+}

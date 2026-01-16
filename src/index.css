@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'ABC Diatype';
+  src: url('./assets/fonts/ABCDiatype-Regular-Trial.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ABC Diatype Ultra';
+  src: url('./assets/fonts/ABCDiatype-Ultra-Trial.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ABC Diatype Heavy';
+  src: url('./assets/fonts/ABCDiatype-Heavy-Trial.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'ABC Diatype', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+}

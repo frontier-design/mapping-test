@@ -1,0 +1,291 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.3871, 43.6426]
+      },
+      "properties": {
+        "name": "CN Tower",
+        "type": "Landmark",
+        "description": "Iconic 553m tall tower",
+        "height": "553m"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.3889, 43.6416]
+      },
+      "properties": {
+        "name": "Rogers Centre",
+        "type": "Stadium",
+        "description": "Home of the Toronto Blue Jays",
+        "capacity": "53000"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.3832, 43.6532]
+      },
+      "properties": {
+        "name": "Toronto City Hall",
+        "type": "Government",
+        "description": "City Hall and Nathan Phillips Square"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.3806, 43.6475]
+      },
+      "properties": {
+        "name": "Royal Ontario Museum",
+        "type": "Museum",
+        "description": "ROM - Art, world culture and natural history"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.3959, 43.6530]
+      },
+      "properties": {
+        "name": "Distillery District",
+        "type": "Neighborhood",
+        "description": "Historic pedestrian-only village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.3831, 43.6518]
+      },
+      "properties": {
+        "name": "Eaton Centre",
+        "type": "Shopping",
+        "description": "Major shopping mall in downtown Toronto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.3928, 43.6670]
+      },
+      "properties": {
+        "name": "Kensington Market",
+        "type": "Neighborhood",
+        "description": "Vibrant multicultural market area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.3772, 43.6530]
+      },
+      "properties": {
+        "name": "St. Lawrence Market",
+        "type": "Market",
+        "description": "Historic public market"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-79.4000, 43.6500],
+          [-79.3871, 43.6426],
+          [-79.3800, 43.6500],
+          [-79.3700, 43.6550]
+        ]
+      },
+      "properties": {
+        "name": "Downtown Core Route",
+        "type": "Route",
+        "description": "Main route through downtown Toronto"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-79.4100, 43.6400],
+          [-79.3600, 43.6400],
+          [-79.3600, 43.6600],
+          [-79.4100, 43.6600],
+          [-79.4100, 43.6400]
+        ]]
+      },
+      "properties": {
+        "name": "Downtown Toronto",
+        "type": "Region",
+        "description": "Downtown core area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-79.3950, 43.6450],
+          [-79.3850, 43.6450],
+          [-79.3850, 43.6550],
+          [-79.3950, 43.6550],
+          [-79.3950, 43.6450]
+        ]]
+      },
+      "properties": {
+        "name": "Entertainment District",
+        "type": "Neighborhood",
+        "description": "Entertainment and sports district"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-79.4000, 43.6650],
+          [-79.3850, 43.6650],
+          [-79.3850, 43.6750],
+          [-79.4000, 43.6750],
+          [-79.4000, 43.6650]
+        ]]
+      },
+      "properties": {
+        "name": "Kensington-Chinatown",
+        "type": "Neighborhood",
+        "description": "Kensington Market and Chinatown area"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-79.4202, 43.6548],
+          [-79.4185, 43.6549],
+          [-79.4168, 43.6550],
+          [-79.4151, 43.6551],
+          [-79.4134, 43.6552],
+          [-79.4117, 43.6553],
+          [-79.4100, 43.6554],
+          [-79.4083, 43.6555],
+          [-79.4066, 43.6556],
+          [-79.4049, 43.6557],
+          [-79.4032, 43.6558],
+          [-79.4015, 43.6559],
+          [-79.3998, 43.6560],
+          [-79.3981, 43.6561],
+          [-79.3964, 43.6562],
+          [-79.3947, 43.6563],
+          [-79.3930, 43.6564],
+          [-79.3913, 43.6565],
+          [-79.3896, 43.6566]
+        ]
+      },
+      "properties": {
+        "name": "Dundas Street West",
+        "type": "Street",
+        "description": "Dundas Street West (from Ossington to Spadina)",
+        "highlight": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-79.4202, 43.6698],
+          [-79.4185, 43.6699],
+          [-79.4168, 43.6700],
+          [-79.4151, 43.6701],
+          [-79.4134, 43.6702],
+          [-79.4117, 43.6703],
+          [-79.4100, 43.6704],
+          [-79.4083, 43.6705],
+          [-79.4066, 43.6706],
+          [-79.4049, 43.6707],
+          [-79.4032, 43.6708],
+          [-79.4015, 43.6709],
+          [-79.3998, 43.6710],
+          [-79.3981, 43.6711],
+          [-79.3964, 43.6712],
+          [-79.3947, 43.6713],
+          [-79.3930, 43.6714],
+          [-79.3913, 43.6715],
+          [-79.3896, 43.6716]
+        ]
+      },
+      "properties": {
+        "name": "Bloor Street West",
+        "type": "Street",
+        "description": "Bloor Street West (from Ossington to Spadina)",
+        "highlight": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-79.4202, 43.6548],
+          [-79.4201, 43.6562],
+          [-79.4200, 43.6576],
+          [-79.4199, 43.6590],
+          [-79.4198, 43.6604],
+          [-79.4197, 43.6618],
+          [-79.4196, 43.6632],
+          [-79.4195, 43.6646],
+          [-79.4194, 43.6660],
+          [-79.4193, 43.6674],
+          [-79.4192, 43.6688],
+          [-79.4202, 43.6698]
+        ]
+      },
+      "properties": {
+        "name": "Ossington Avenue",
+        "type": "Street",
+        "description": "Ossington Avenue (from Dundas to Bloor)",
+        "highlight": true
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-79.3896, 43.6566],
+          [-79.3897, 43.6580],
+          [-79.3898, 43.6594],
+          [-79.3899, 43.6608],
+          [-79.3900, 43.6622],
+          [-79.3901, 43.6636],
+          [-79.3902, 43.6650],
+          [-79.3903, 43.6664],
+          [-79.3904, 43.6678],
+          [-79.3905, 43.6692],
+          [-79.3896, 43.6716]
+        ]
+      },
+      "properties": {
+        "name": "Spadina Avenue",
+        "type": "Street",
+        "description": "Spadina Avenue (from Dundas to Bloor)",
+        "highlight": true
+      }
+    }
+  ]
+}
